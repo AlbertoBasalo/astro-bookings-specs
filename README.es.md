@@ -1,18 +1,15 @@
 # AstroBookings Español
 
 Una **API backend** para ofrecer reservas de lanzamientos de cohetes.
-
-- Los lanzamientos se programan para cohetes específicos, con precios y umbrales mínimos de pasajeros.
-
-- Los cohetes tienen plazas limitadas; las solicitudes de lanzamiento se validan en función de la capacidad del cohete.
-
-- Ciclo de vida del estado del lanzamiento: programado → confirmado → exitoso, o rutas de cancelación/suspensión.
-
+- Los cohetes tienen plazas limitadas y un rango operativo.
+- Los lanzamientos se programan para un cohete en una fecha futura.
+- Cada lanzamiento ofrece asientos con precios y umbrales mínimos de pasajeros para ser rentables.
+- Un lanzamiento pasa por los siguientes estados: programado → confirmado → exitoso.
+- Pero puede ser suspendido si no hay pasajeros sufucuentes o cancelado por razones técnicas.
 - Un cliente se identifica por su dirección de correo electrónico y tiene un nombre y número de teléfono.
-
 - Un cliente puede reservar múltiples plazas en un lanzamiento, pero no puede superar las plazas disponibles.
-
-- A los clientes se les factura en el momento de la reserva, y los pagos se procesan a través de una pasarela simulada.
+- A los clientes se les factura la reserva, y los pagos se procesan a través de una pasarela simulada.
+- A los clientes se les devuelve el importe en caso de suspensión o cancelación del lanzamiento.
 
 > [!WARNING]
 > AstroBookings es una empresa ficticia de viajes espaciales.
