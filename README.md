@@ -4,6 +4,15 @@ Idea, business problem and domain specification for a space travel booking syste
 
 ---
 
+## Paths and folders
+- {Root_Folder} : `/`
+- {Agents_Folder} : `.agents` 
+- {Agents_file}: `AGENTS.md` 
+- {Project_Folder}: `project`
+- {Briefing_file}: `{Project_Folder}/{lang}.briefing.md`
+
+---
+
 - [GitHub Repository](https://github.com/AlbertoBasalo/astro-bookings)
 - Default branch: `main`
 
