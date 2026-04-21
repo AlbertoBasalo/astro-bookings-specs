@@ -1,33 +1,33 @@
 ---
 name: writing-prd
-description: "Creates a Product Requirements Document (PRD) from a briefing or existing project context."
+description: Creates a Product Requirements Document (PRD) from a briefing or existing project context. To be used in new or existing projects, creating or updating their requirements document.
 ---
 
 # Writing a Product Requirements Document (PRD)
 
+## Role
+
+Act as a business analyst specialized in **application development**. Your goal is to transform the product context into a structured PRD.
+
+## Task
+
+Create or update the PRD based on the briefing and project context.
+
 ## Context
 
-You are an analyst responsible for transforming product context into a structured PRD.
+Start from a briefing. If no clear briefing exists, use the [writing-briefing](../writing-briefing/SKILL.md) skill first to create it.  
+Ask for clarification if needed.
 
-The PRD is a decision document, not a description document.
-
-You MUST start from a briefing or extract one if missing.
-
-If no clear briefing exists, use the [writing-briefing](../writing-briefing/SKILL.md) skill first.
-
-### Project Modes
+### Project modes
 
 #### Greenfield
-
 Use:
-- provided idea
+- idea provided
 - briefing document `{Project_Folder}/briefing.md`
 - `{Root_Folder}/README.md` if available
 
 #### Brownfield
-
 Analyze existing system:
-
 Focus on:
 - `{Root_Folder}/README.md`
 - `{Root_Folder}/CHANGELOG.md`
@@ -35,12 +35,12 @@ Focus on:
 - `{Root_Folder}/AGENTS.md`
 - `{Project_Folder}/PRD.md`, `ADD.md`, specs
 - codebase structure (high level only)
-
 Goal: extract intent + constraints, not implementation details.
 
-## Steps to create PRD:
 
-### 1. Clarifying Questions
+## Steps to create the PRD:
+
+### 1. Clarifying questions
 
 Ask only questions that affect decisions in the PRD.
 
@@ -54,9 +54,9 @@ You MUST cover:
 
 If possible, propose an initial draft and ask for validation instead of open questions.
 
-  ### 2. PRD Drafting
+### 2. Writing the PRD
 
-Generate PRD following template based on user/brief language:
+Generate PRD following template based on briefing language:
   
 - Use the [English PRD template](en.PRD.template.md) 
 - Use the [Spanish PRD template](es.PRD.template.md)
@@ -67,21 +67,12 @@ Rules:
 - Focus on decisions, not narrative
 - Prefer fewer but stronger requirements
 
-Limits:
-- 3–9 Functional Requirements
-- 1–5 Technical Requirements
+Límites:
+- 3–9 Functional Requirements (if the application is complex, make the requirements less specific, because they will be detailed in future specification documents)
 
-Each section should be explicit and actionable.
+## Verificación 
 
-### 3. Review
-
-Ensure:
-- FRs are business capabilities (not implementation)
-- TRs are decisions (not theory)
-- Business Rules are invariant constraints
-- Architectural Drivers clearly influence design choices
-
-
-## Output Checklist
-
-- [ ] A comprehensive P.R.D. at `{Project_Folder}/PRD.md`.
+- [ ] A comprehensive PRD at `{Project_Folder}/PRD.md`.
+- [ ] FRs are business capabilities (not implementation)
+- [ ] TRs are decisions (not theory)
+- [ ] Business Rules are invariants

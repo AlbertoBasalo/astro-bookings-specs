@@ -1,6 +1,14 @@
 # AstroBookings
 
+- Versión en español:	
+Idea, problema de negocio y especificación del dominio para un sistema de reserva de vuelos espaciales utilizado como demostración en cursos de formación.
+
+> Ejecuta el prompt `es.idea.prompt.md` para crear el briefing.
+
+- English version:
 Idea, business problem and domain specification for a space travel booking system used as a demo project for training purposes.
+
+> Run the prompt `en.idea.prompt.md` to create the briefing.
 
 ---
 
@@ -9,11 +17,11 @@ Idea, business problem and domain specification for a space travel booking syste
 - {Agents_Folder} : `.agents` 
 - {Agents_file}: `AGENTS.md` 
 - {Project_Folder}: `project`
-- {Briefing_file}: `{Project_Folder}/{lang}.briefing.md`
+- {Briefing_file}: `{Project_Folder}/briefing.md`
 
 ---
 
-- [GitHub Repository](https://github.com/AlbertoBasalo/astro-bookings)
+- [GitHub Repository](https://github.com/AlbertoBasalo/astro-bookings-specs)
 - Default branch: `main`
 
 - **Autor**: [Alberto Basalo](https://albertobasalo.dev)

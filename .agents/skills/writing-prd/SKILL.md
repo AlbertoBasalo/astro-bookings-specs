@@ -1,6 +1,6 @@
 ---
 name: writing-prd
-description: "Crea un Documento de Requerimientos de Producto (PRD) basado en un briefing o contexto de proyecto existente."
+description: Crea un Documento de Requerimientos de Producto (PRD) basado en un briefing o contexto de proyecto existente. Para usar en proyectos nuevos o existentes, creando o actualizado su documento de requerimientos
 ---
 
 # Crear un Documento de Requerimientos de Producto (PRD)
