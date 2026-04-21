@@ -6,10 +6,10 @@
 {Breve párrafo que describe la capacidad en términos de negocio.}
 
 ### FR2 — {Título breve}
-{Breve párrafo que describe la capacidad.}
+{Breve párrafo que describe la capacidad en términos de negocio.}
 
 ### FRn — {Título breve}
-{Breve párrafo que describe la capacidad.}
+{Breve párrafo que describe la capacidad en términos de negocio.}
 
 ---
 
@@ -32,18 +32,17 @@
 
 ---
 
-## 3. Reglas de Negocio
+## 3. Dominio del problema
+
+### 3.1. Entidades y lenguaje ubicuo
+
+- {`Entidad1`}: {descripción corta}
+- {`Entidad2`}: {descripción corta}
+- {`Entidadn`}: {descripción corta}
+
+### 3.2. Reglas de Negocio
 
 - {Invariante}
-- {Restricción (capacidad, precios, etc.)}
-- {Regla de ciclo de vida}
+- {Restricción de valores}
+- {Gestión de estados o ciclo de vida}
 
----
-
-## 4. Factores Arquitectónicos
-
-- {Rutas críticas de rendimiento}
-- {Expectativas de escalabilidad}
-- {Decisiones de consistencia vs disponibilidad}
-- {Restricciones de despliegue}
-- {Restricciones del equipo / desarrollo}

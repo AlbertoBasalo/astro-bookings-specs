@@ -1,87 +1,80 @@
 ---
 name: writing-prd
-description: "Creates a Product Requirements Document (PRD) from a briefing or existing project context."
+description: "Crea un Documento de Requerimientos de Producto (PRD) basado en un briefing o contexto de proyecto existente."
 ---
 
-# Writing a Product Requirements Document (PRD)
+# Crear un Documento de Requerimientos de Producto (PRD)
 
-## Context
+## Rol
+Actúa como analista de negocio especializado en el **desarrollo de aplicaciones**. Tu objetivo es transformar el contexto de producto en un PRD estructurado.
 
-You are an analyst responsible for transforming product context into a structured PRD.
+## Tarea
 
-The PRD is a decision document, not a description document.
+Crea o actualiza el PRD basado en el briefing y el contexto de proyecto.
 
-You MUST start from a briefing or extract one if missing.
+## Contexto
 
-If no clear briefing exists, use the [writing-briefing](../writing-briefing/SKILL.md) skill first.
+Debes comenzar desde un briefing. Si no existe un briefing claro, utiliza la habilidad [writing-briefing](../writing-briefing/SKILL.md) primero para crearlo.
 
-### Project Modes
+### Modos de proyecto
 
 #### Greenfield
 
-Use:
-- provided idea
-- briefing document `{Project_Folder}/briefing.md`
-- `{Root_Folder}/README.md` if available
+Utiliza:
+- idea proporcionada
+- documento de briefing `{Project_Folder}/briefing.md`
+- `{Root_Folder}/README.md` si está disponible
 
 #### Brownfield
 
-Analyze existing system:
+Analiza el sistema existente:
 
-Focus on:
+Focaliza en:
 - `{Root_Folder}/README.md`
 - `{Root_Folder}/CHANGELOG.md`
 - `{Root_Folder}/docs`
 - `{Root_Folder}/AGENTS.md`
 - `{Project_Folder}/PRD.md`, `ADD.md`, specs
-- codebase structure (high level only)
+- estructura de codebase (solo alto nivel)
 
-Goal: extract intent + constraints, not implementation details.
+Objetivo: extraer el propósito + restricciones, no detalles de implementación.
 
-## Steps to create PRD:
+## Pasos para crear el PRD:
 
-### 1. Clarifying Questions
+### 1. Preguntas aclaratorias
 
-Ask only questions that affect decisions in the PRD.
+Haz solo preguntas que afecten a las decisiones en el PRD.
 
-You MUST cover:
+Debes cubrir:
 
-- Functional scope (what the system must do)
-- Constraints (what limits exist)
-- Technical direction (lightweight decisions only)
-- Business rules (domain invariants)
-- Architectural drivers (what will influence design)
+- Alcance funcional (qué debe hacer el sistema)
+- Restricciones (qué límites existen)
+- Lenguaje ubicuo (entidades y reglas de negocio)
+- Reglas de negocio (invariantes, restricciones, máquinas de estados)
+- Factores arquitectónicos (qué influirá en el diseño)
 
-If possible, propose an initial draft and ask for validation instead of open questions.
+Si es posible, propón opciones iniciales y pide validación en lugar de preguntas abiertas.
 
-  ### 2. PRD Drafting
+### 2. Redacción del PRD
 
-Generate PRD following template based on user/brief language:
+Genera el PRD siguiendo la plantilla basada en el idioma del usuario/briefing:
   
-- Use the [English PRD template](en.PRD.template.md) 
-- Use the [Spanish PRD template](es.PRD.template.md)
+- Utiliza la plantilla [en inglés](en.PRD.template.md) 
+- Utiliza la plantilla [en español](es.PRD.template.md)
 
-Rules:
-- Keep concise
-- Do not repeat briefing
-- Focus on decisions, not narrative
-- Prefer fewer but stronger requirements
+Reglas:
+- Mantén el documento conciso
+- No repitas el briefing (el PRD es una ampliación)
+- Céntrate en las decisiones, no en la narrativa
+- Prefiere menos pero más fuertes requerimientos
 
-Limits:
-- 3–9 Functional Requirements
-- 1–5 Technical Requirements
-
-Each section should be explicit and actionable.
-
-### 3. Review
-
-Ensure:
-- FRs are business capabilities (not implementation)
-- TRs are decisions (not theory)
-- Business Rules are invariant constraints
-- Architectural Drivers clearly influence design choices
+Límites:
+- 3–9 Requerimientos Funcionales (si la aplicación es compleja, haz los requerimientos menos específicos, porque serán detallados en futuros documentos de especificación)
 
 
-## Output Checklist
+## Verificación 
 
-- [ ] A comprehensive P.R.D. at `{Project_Folder}/PRD.md`.
+- [ ] Un PRD completo en `{Project_Folder}/PRD.md`.
+- [ ] FRs son capacidades de negocio (no implementación)
+- [ ] TRs son decisiones (no teoría)
+- [ ] Las reglas de negocio son restricciones invariantes

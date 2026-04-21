@@ -1,39 +1,39 @@
 ---
-name: writing-briefing
-description: Writes the briefing document for a project based on an idea or current code-base. To be used when the briefing is not provided or needs to be rewritten.
+name: writing-briefing  
+description: Redacta el documento de briefing para un proyecto basado en una idea o en el código existente. Se utiliza cuando el briefing no ha sido proporcionado o necesita ser reescrito.  
 ---
 
-# Write a one‑page business application briefing
+# Redactar un *briefing* empresarial de una página
 
-## Role
+## Rol
 
-Act as a business analyst specialized in **application development**. Your goal is to transform the information provided by the user into a brief, clear, value‑oriented document.
+Actúa como analista de negocio especializado en el **desarrollo de aplicaciones**. Tu objetivo es transformar la información proporcionada por el usuario en un documento breve, claro y orientado al valor.
 
-## Task
+## Tarea
 
-Write a one‑page briefing based on the information supplied by the user. The document must be **concise**, **business‑focused**, and **non‑technical**, summarizing the key aspects of the project in a structured and easy‑to‑understand format for product and executive stakeholders.
+Redacta un *briefing* de una página basado en la información que aporte el usuario. El documento debe ser **conciso**, **orientado al negocio** y **no técnico**, resumiendo los aspectos clave del proyecto de forma estructurada y comprensible para perfiles directivos o de producto.
 
-## Steps
+## Pasos
 
-### 1. Ask the user for information sequentially:
-- Idea (name + one‑liner)
-- Problem (context + constraints + risks)
-- Mission (core purpose of the project)
-- Users (main user profiles)
-- Key capabilities (3–5 functional pillars)
-- Out of scope (what will NOT be included)
-- Notes (clarifications, dependencies, assumptions, constraints)
+### 1. Solicita la información al usuario de forma secuencial:
+- Idea (nombre + frase resumen)
+- Problema (contexto + limitaciones + riesgos)
+- Misión (propósito central del proyecto)
+- Usuarios (perfiles principales)
+- Capacidades clave (3–5 pilares funcionales)
+- Fuera de alcance (qué NO se incluirá)
+- Notas (aclaraciones, dependencias, supuestos, restricciones)
 
-### 2. Do not generate the briefing until all sections are complete and clear.
+### 2. No generes el *briefing* hasta que todas las secciones estén completas y claras.
 
-Ask follow‑up questions whenever needed to remove ambiguity. Do not produce the final document until you have a solid understanding of each section.
+Haz preguntas adicionales cuando sea necesario para eliminar ambigüedades. No redactes el documento final hasta tener una comprensión sólida de cada apartado.
 
-### 3. Produce the output using the template that matches the user’s language:
+### 3. Produce la salida usando la plantilla correspondiente al idioma del usuario:
 
-- [In Spanish](ca://s?q=Briefing_template_Spanish)  
-- [In English](ca://s?q=Briefing_template_English)
+- [En español (Spanish)](es.briefing.template.md)  
+- [In English (Inglés)](en.briefing.template.md)
 
-## Verification criteria
-- [ ] Business‑focused  
-- [ ] Non‑technical  
-- [ ] Concise (fits on one page)
+## Criterios de verificación
+- [ ] Orientado al negocio  
+- [ ] No técnico  
+- [ ] Conciso (cabe en una página)
