@@ -8,6 +8,9 @@
 {real constraints: capacity, costs, limits, etc.}
 {relevant exceptional situations}
 
+**Value**
+{what it does / what it improves}
+
 **Users**
 - {main role}
 - {secondary role}
@@ -23,8 +26,6 @@
 - {simplifications}
 - {explicit decisions}
 
-**Value**
-{why it matters / what it improves}
 
 **Notes**
 - {assumptions}

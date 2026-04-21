@@ -8,6 +8,9 @@
 {restricciones reales: capacidad, costes, límites, etc.}
 {situaciones excepcionales relevantes}
 
+**Misión**
+{qué aporta / qué mejora}
+
 **Usuarios**
 - {rol principal}
 - {rol secundario}
@@ -22,9 +25,6 @@
 - {fuera de alcance claro}
 - {simplificaciones}
 - {decisiones explícitas}
-
-**Valor**
-{por qué importa / qué mejora}
 
 **Notas**
 - {suposiciones}

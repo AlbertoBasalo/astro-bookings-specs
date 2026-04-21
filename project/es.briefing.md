@@ -1,48 +1,38 @@
 # AstroBookings
 
 **Idea**  
-Sistema para gestionar reservas de viajes espaciales para empresas de turismo orbital.
+Aplicación interna para que AstroBookings gestione su flota, lanzamientos y reservas de turismo espacial de forma simple y operativa.
 
 **Problema**  
-Las empresas de turismo espacial necesitan controlar plazas, reservas y estados de lanzamiento sin errores ni sobre-venta.
+AstroBookings necesita coordinar operaciones comerciales y de vuelo sin perder control de capacidad ni estado de cada lanzamiento.
 
-Operan con cohetes que viajan a destinos como la órbita terrestre, la Luna o Marte, siempre con capacidad limitada.  
-Cada lanzamiento debe ser rentable: tiene un precio por asiento y un mínimo de ocupación para no ser suspendido.  
-Además, pueden producirse cancelaciones por motivos técnicos o meteorológicos.  
-Los pagos y devoluciones se gestionan mediante sistemas externos.
+Opera una flota de cohetes con distinto alcance y número de plazas, lo que exige planificación precisa para evitar sobreventa.  
+Cada lanzamiento tiene viabilidad económica y puede suspenderse o cancelarse por causas de negocio o técnicas.  
+Además, necesita registrar cobros y devoluciones en modo demostración, sin integrar pasarelas reales.
+
+**Misión**  
+Demostrar, en contexto formativo, una solución rápida de gestión end-to-end para lanzamientos y reservas, asegurando control de capacidad y operación diaria.
 
 **Usuarios**
-- Operadores de la empresa (gestionan flota, lanzamientos y reservas de clientes)
+- Operaciones de vuelos (planifican lanzamientos y actualizan su estado)
+- Gestión de reservas (crean y administran reservas sin overbooking)
+- Administración/finanzas (registran pagos y devoluciones simuladas)
     
 **Qué hace**
-- Gestiona cohetes con capacidad y alcance limitados.
-- Permite definir lanzamientos con precio por asiento y ocupación mínima.
-- Gestiona clientes identificados por email.
-- Permite reservar plazas y controla la disponibilidad automáticamente.
-- Gestiona el estado de los lanzamientos:    
-    - programado → confirmado → exitoso        
-    - suspendido por baja ocupación        
+- Gestiona flota de cohetes con capacidades y alcance.
+- Planifica lanzamientos y su evolución operativa.
+- Registra reservas controlando disponibilidad para evitar overbooking.
+- Gestiona el estado de los lanzamientos: 
+    - programado → confirmado → exitoso 
+    - suspendido por baja ocupación 
     - cancelado por causas técnicas o externas
+- Registra pagos y devoluciones con pasarela fake para fines demo.
 **No incluye**
-- Pagos reales (solo simulación)    
-- Autenticación (uso interno por operadores)    
-- Persistencia (datos en memoria)    
-
-**Valor**  
-Permite validar la lógica de negocio de reservas evitando overbooking y errores operativos.
+- Integración con pasarelas de pago reales (solo simulación).
+- Reglas avanzadas de seguridad, fraude o cumplimiento financiero.
+- Operación productiva 24/7 (proyecto de demo).
 
 **Notas**
-- Proyecto de demo para formación, no pensado para producción.
-- Solución recomendada mediante API REST y Aplicación Web.
-
----
-
-- [Repositorio en GitHub](https://github.com/AlbertoBasalo/astro-bookings)
-- Rama por defecto: `main`
-
-- **Autor**: [Alberto Basalo](https://albertobasalo.dev)
-- **Ai Code Academy en Español**: [AI code Academy](https://aicode.academy)
-- **Redes sociales**:
-  - [X](https://x.com/albertobasalo)
-  - [LinkedIn](https://www.linkedin.com/in/albertobasalo/)
-  - [GitHub](https://github.com/albertobasalo)
+- Proyecto en modo hackathon: alcance acotado, implementación simple y rápida.
+- Caso de uso educativo para cursos y talleres; no orientado a producción.
+- Solución esperada: API REST + aplicación web interna para empleados.
