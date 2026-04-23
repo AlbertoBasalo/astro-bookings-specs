@@ -38,11 +38,11 @@
 
 - {`Entidad1`}: {descripción corta}
 - {`Entidad2`}: {descripción corta}
-- {`Entidadn`}: {descripción corta}
+- {`EntidadN`}: {descripción corta}
 
 ### 3.2. Reglas de Negocio
 
 - {Invariante}
 - {Restricción de valores}
-- {Gestión de estados o ciclo de vida}
+- {Gestión de estados o ciclo de vida (diagrama o tabla)}
 

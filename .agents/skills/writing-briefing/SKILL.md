@@ -7,15 +7,22 @@ description: Redacta el documento de briefing para un proyecto basado en una ide
 
 ## Rol
 
-Actúa como analista de negocio especializado en el **desarrollo de aplicaciones**. Tu objetivo es transformar la información proporcionada por el usuario en un documento breve, claro y orientado al valor.
+Actúa como analista de negocio especializado en el **desarrollo de aplicaciones**. 
+Tu objetivo es transformar la información proporcionada por el usuario en un documento breve, claro y orientado al valor.
 
 ## Tarea
 
-Redacta un *briefing* de una página basado en la información que aporte el usuario. El documento debe ser **conciso**, **orientado al negocio** y **no técnico**, resumiendo los aspectos clave del proyecto de forma estructurada y comprensible para perfiles directivos o de producto.
+Redacta un *briefing* de una página basado en la información que aporte el usuario. 
+El documento debe ser **conciso**, **orientado al negocio** y **no técnico**. 
+Resumiendo los aspectos clave del proyecto de forma estructurada y comprensible para perfiles directivos o de producto.
 
 ## Pasos
 
-### 1. Solicita la información al usuario de forma secuencial:
+### 1. Preguntas aclaratorias
+
+Haz solo preguntas que afecten a las decisiones en el PRD.
+
+Debes cubrir:
 - Idea (nombre + frase resumen)
 - Problema (contexto + limitaciones + riesgos)
 - Misión (propósito central del proyecto)
@@ -24,16 +31,25 @@ Redacta un *briefing* de una página basado en la información que aporte el usu
 - Fuera de alcance (qué NO se incluirá)
 - Notas (aclaraciones, dependencias, supuestos, restricciones)
 
-### 2. No generes el *briefing* hasta que todas las secciones estén completas y claras.
+Si es posible, propón opciones iniciales y pide validación en lugar de preguntas abiertas.
 
-Haz preguntas adicionales cuando sea necesario para eliminar ambigüedades. No redactes el documento final hasta tener una comprensión sólida de cada apartado.
+### 2. Redacción del Briefing
 
-### 3. Produce la salida usando la plantilla correspondiente al idioma del usuario:
+Genera un documento de briefing siguiendo la plantilla basada en el idioma del usuario:
 
 - [En español (Spanish)](es.briefing.template.md)  
 - [In English (Inglés)](en.briefing.template.md)
 
-## Criterios de verificación
+Reglas:
+- Mantén el documento conciso
+- No entres en detalles técnicos
+- Enfócate en el valor para el negocio y los usuarios
+
+Límites:
+- Equivalente a una página A4 (aproximadamente 500 palabras)
+
+## Verificación
+- [ ] Un Briefing completo en `{Project_Folder}/briefing.md`.
 - [ ] Orientado al negocio  
 - [ ] No técnico  
 - [ ] Conciso (cabe en una página)

@@ -1,6 +1,6 @@
 ---
 name: writing-prd
-description: Crea un Documento de Requerimientos de Producto (PRD) basado en un briefing o contexto de proyecto existente. Para usar en proyectos nuevos o existentes, creando o actualizado su documento de requerimientos
+description: Redacta un Documento de Requerimientos de Producto (PRD) basado en un briefing o contexto de proyecto existente. Para usar en proyectos nuevos o existentes, creando o actualizado su documento de requerimientos
 ---
 
 # Crear un Documento de Requerimientos de Producto (PRD)
@@ -14,7 +14,9 @@ Crea o actualiza el PRD basado en el briefing y el contexto de proyecto.
 
 ## Contexto
 
-Debes comenzar desde un briefing. Si no existe un briefing claro, utiliza la habilidad [writing-briefing](../writing-briefing/SKILL.md) primero para crearlo.
+- Briefing claro en `{Project_Folder}/briefing.md` 
+
+Si falta el Briefing, crea uno primero con la skill [writing-briefing](../writing-briefing/SKILL.md).
 
 ### Modos de proyecto
 
@@ -34,12 +36,11 @@ Focaliza en:
 - `{Root_Folder}/CHANGELOG.md`
 - `{Root_Folder}/docs`
 - `{Root_Folder}/AGENTS.md`
-- `{Project_Folder}/PRD.md`, `ADD.md`, specs
 - estructura de codebase (solo alto nivel)
 
 Objetivo: extraer el propósito + restricciones, no detalles de implementación.
 
-## Pasos para crear el PRD:
+## Pasos
 
 ### 1. Preguntas aclaratorias
 
@@ -70,7 +71,6 @@ Reglas:
 
 Límites:
 - 3–9 Requerimientos Funcionales (si la aplicación es compleja, haz los requerimientos menos específicos, porque serán detallados en futuros documentos de especificación)
-
 
 ## Verificación 
 

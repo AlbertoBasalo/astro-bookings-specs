@@ -1,33 +1,34 @@
-# {Nombre}
+# {Nombre del producto o proyecto}
 
-**Idea**  
-{qué es el sistema + para quién + en 1 frase}
+{qué es y para quién en una frase}
 
-**Problema**  
-{contexto de negocio en 2–5 líneas}
-{restricciones reales: capacidad, costes, límites, etc.}
-{situaciones excepcionales relevantes}
+## 1. Idea
 
-**Misión**
-{qué aporta / qué mejora}
+### 1.1 Problema o necesidad
+{Describe el problema o necesidad y qué impacto tiene en el público objetivo o en la organización.}
 
-**Usuarios**
-- {rol principal}
-- {rol secundario}
+### 1.2 Misión u objetivo
+{¿Qué se espera lograr? Asegúrate de que sea específico, medible, alcanzable, relevante y con un plazo definido (SMART).}
 
-**Qué hace**
+### 1.3 Público objetivo
+{Lista de grupos o roles que se beneficiarán o estarán involucrados en el proyecto.}
+
+## 2. Alcance
+
+### 2.1 Qué se incluye
 - {capacidad clave}
 - {capacidad clave}
 - {capacidad clave}
 - {reglas importantes si aportan valor}
 
-**No incluye**
+### 2.2 Qué se excluye
 - {fuera de alcance claro}
 - {simplificaciones}
 - {decisiones explícitas}
 
-**Notas**
+### 2.3 Limitaciones y notas
 - {suposiciones}
 - {dependencias externas}
 - {advertencias}
 - {solución técnica recomendada/esperada}
+
