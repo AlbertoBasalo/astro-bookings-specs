@@ -36,6 +36,8 @@ Haz preguntas solo si bloquean decisiones del documento:
 
 Si hay incertidumbre menor, documenta supuestos de forma explícita.
 
+Si es posible, propón opciones iniciales y pide validación en lugar de preguntas abiertas.
+
 No mezcles varios FR/TR en la misma spec salvo que el usuario lo pida explícitamente.
 
 ### 2. Redacción de la especificación
