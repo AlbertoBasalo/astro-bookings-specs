@@ -12,7 +12,7 @@ Convierte un requerimiento funcional (FR) o técnico (TR) del PRD en una especif
 
 ## Tarea
 
-Crear una especificación funcional para un único requerimiento del PRD, usando una estructura estándar de problema, solución, verificación..
+Crear una especificación funcional para un único requerimiento del PRD, usando una estructura estándar de problema, solución y verificación.
 
 ## Contexto
 
@@ -47,7 +47,7 @@ Genera la spec usando la plantilla:
 
 #### 2.1 Identificador y slug
 
-- Asigna un identificador único a la spec basado en su requerimiento(ej. `FR1`, `TR2`) 
+- Asigna un identificador único a la spec basado en su requerimiento (ej. `FR1`, `TR2`) 
 - Complétalo con un slug descriptivo en kebab-case (ej. `gestion-cohetes`).
 
 El nombre del archivo debe ser una combinación de ambos: `{id-slug}.spec.md`. Ejemplo: `FR1-gestion-cohetes.spec.md`.

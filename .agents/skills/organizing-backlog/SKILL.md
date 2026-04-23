@@ -3,7 +3,7 @@ name: organizing-backlog
 description: Organiza el backlog de un proyecto de software, priorizando especificaciones según sus dependencias y estado. Usar cuando se crea una especificación nueva o se actualiza el estado de una existente.
 ---
 
-# Organizing Backlog
+# Organizar backlog
 
 ## Rol 
 
@@ -46,6 +46,6 @@ Reglas:
 
 ## Verificación
 
-- Backlog actualizado en `{Project_Folder}/BACKLOG.md` 
-- Contiene todas las especificaciones
-- Cada una con sus dependencias y estado actualizados
+- [ ] Backlog actualizado en `{Project_Folder}/BACKLOG.md`
+- [ ] Contiene todas las especificaciones
+- [ ] Cada una con sus dependencias y estado actualizados
