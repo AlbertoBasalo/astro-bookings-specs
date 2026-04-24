@@ -17,8 +17,8 @@
 
 > Convención visual :
 
-- `Especificación` -> `Pendiente`
-- `_Especificación_` -> `En Curso`
-- `~~Especificación~~` -> `Completada`
-- `**_Especificación_**` -> `Bloqueada`
-- `**~~Especificación~~**` -> `Fallida`
+- Especificación-pendiente 
+- _Especificación-en-curso_ 
+- ~~Especificación-completada~~ 
+- **Especificación-bloqueada** 
+- **~~Especificación-fallida~~** 
