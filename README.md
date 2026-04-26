@@ -15,7 +15,7 @@ También debe contemplar cobros y devoluciones de reservas con una pasarela de p
 
 Se plantea una API REST y una aplicación web interna para que el equipo gestione reservas y lanzamientos.
 
-> Ejecuta el prompt `outline-product.prompt.md` para crear el briefing.
+> Ejecuta el prompt `draft-product.prompt.md` para crear el briefing.
 
 ## English version:
 AstroBookings is a training project for courses and workshops, thought as MVP (no production and no authentication in this phase).
@@ -29,7 +29,7 @@ It also has to consider payments and refunds of bookings with a fictitious payme
 A REST API and an internal web application are proposed to allow the team to manage bookings and launches.
 
 
-> Run the prompt `outline-product.prompt.md` to create the briefing.
+> Run the prompt `draft-product.prompt.md` to create the briefing.
 
 > [!WARNING]  
 > Translate the AGENTS.md file to English.
